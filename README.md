@@ -1,1 +1,3 @@
-# Time-Series-Analysis-and-Forecasting
+This code provides insights into the monthly trends in furniture sales over time and decomposes the time series into its various components (trend, seasonality, and residual). This analysis can be valuable for understanding patterns, making forecasts, and identifying potential factors affecting furniture sales.
+
+With it ARIMA code is also provided. It begins by loading and preprocessing the furniture sales data, then visualizes the monthly sales trends over time. Subsequently, the code splits the data into training and testing sets, defines the ARIMA order (p, d, q), and uses the ARIMA model to forecast future sales. The model's performance is evaluated using the Root Mean Squared Error (RMSE), and the actual versus predicted sales values are visualized in a plot, allowing for an assessment of the forecasting accuracy.
